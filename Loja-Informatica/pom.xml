@@ -14,6 +14,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <version.hibernate>4.1.6.Final</version.hibernate>
+    <version.hibernate-jpa-2.1-api>1.0.0.final</version.hibernate-jpa-2.1-api>
+    
   </properties>
 <!-- JPA 2.1 COM HIBERNATE 5 -->
   <dependencies>
