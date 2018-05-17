@@ -4,10 +4,22 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+
+import org.hibernate.Hibernate;
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+
+
 import javax.swing.JFrame;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
+
+import org.hibernate.SessionFactory;
+
+import br.edu.com.lojainformatica.model.Cliente;
+import br.edu.com.lojainformatica.persistence.*;
+
 
 public class App extends JFrame {
 	
@@ -106,7 +118,30 @@ public class App extends JFrame {
 	
 	
 	public static void main(String[] args) {
-		App app = new App();
+		//App app = new App();
+		
+//		Cliente cli = new Cliente();
+		
+	//	cli.setNome("Niel");
+//		cli.setEmail("meu email.com");
+	//	cli.setEndereco("rua tamambá");
+		
+	//	Session session = HibernateUtil.getSessionFactory().openSession();
+		
+//		session.beginTransaction();
+		
+	//	session.save(cli);
+		
+	//	session.getTransaction().commit();
+		
+		
+		
 	}
+
+	
+	
+
+	
+	
 
 }

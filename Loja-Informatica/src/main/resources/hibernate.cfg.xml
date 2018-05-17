@@ -7,16 +7,14 @@
 		</property>
 		
 		<property name="connection.url">
-			jdbc:mysql://192.168.33.151/lojainfo?serverTimezone=UTC
+			jdbc:mysql://127.0.0.1/bdlojainfo?serverTimezone=UTC
 		</property>
 		
 		<property name="connection.username">
-			root
+			"root"
 		</property>
 		
-		<property name="connection.password>
-			""
-		</property>
+		<property name="connection.password>""</property>
 		
 		<property name="dialect">
 			org.hibernate.dialect.MySQLDialect			

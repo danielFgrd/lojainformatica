@@ -3,6 +3,15 @@ package br.edu.com.lojainformatica;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
+import org.hibernate.Session;
+
+import br.edu.com.lojainformatica.persistence.HibernateUtil;
+
+import org.hibernate.Session;
+import br.edu.com.lojainformatica.persistence.*;
+import br.edu.com.lojainformatica.model.*;
+
+
 public class TelaCadClientes extends TelaCadastro {
 
 	JLabel lblNome = new JLabel("Nome:");
@@ -39,4 +48,5 @@ public class TelaCadClientes extends TelaCadastro {
 		
 	}
 	
+
 }
